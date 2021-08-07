@@ -8,7 +8,8 @@
     "webpack-cli": "^4.7.2"
   },
   "devDependencies": {
-    "pug": "^3.0.2"
+    "pug": "^3.0.2",
+    "sass": "^1.37.5"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
