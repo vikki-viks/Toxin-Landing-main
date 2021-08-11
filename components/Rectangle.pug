@@ -1,12 +1,11 @@
 div.rectangle
   h2.name Найдем номера под ваши пожелания
-  div.input
-    div.dates-wrapper
-      div Прибытие
-        input(placeholder="123")
-      div Выезд
-        input(placeholder="123")
-    div.guests
-      div Гости
-        input(placeholder="123")
-    button Подобрать номер
+  div.dates-wrapper
+    div Прибытие
+      input(placeholder="ДД.ММ.ГГГГ").setting
+    div Выезд
+      input(placeholder="ДД.ММ.ГГГГ").setting
+  div.guests
+    div Гости
+    input(placeholder="Сколько гостей").setting#width
+    button.button#rec Подобрать номер
