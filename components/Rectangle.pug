@@ -2,10 +2,15 @@ div.rectangle
   h2.name Найдем номера под ваши пожелания
   div.dates-wrapper
     div Прибытие
-      input(placeholder="ДД.ММ.ГГГГ").setting
+      input(placeholder="ДД.ММ.ГГГГ").setting#datepicker
     div Выезд
       input(placeholder="ДД.ММ.ГГГГ").setting
   div.guests
     div Гости
     input(placeholder="Сколько гостей").setting#width
     button.button#rec Подобрать номер
+  
+  script 
+     = $( function() {
+      $('#datepicker').datepicker()
+    })
