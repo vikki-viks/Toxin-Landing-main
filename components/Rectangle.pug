@@ -1,12 +1,12 @@
 
 div.rectangle
   h2.name Найдем номера под ваши пожелания
+  //- div#date_range
   div.dates-wrapper
     div Прибытие
-      input(placeholder="ДД.ММ.ГГГГ").setting#datepicker
-      div.i
+      input(placeholder="ДД.ММ.ГГГГ" name="startDate").setting#date_range
     div Выезд
-      input(placeholder="ДД.ММ.ГГГГ").setting
+      input(placeholder="ДД.ММ.ГГГГ" name="endDate").setting#date_range
   div.guests
     div Гости
     input(placeholder="Сколько гостей").setting#width
