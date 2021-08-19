@@ -91,3 +91,11 @@
 @mixin semiBold {
   font-family: 'Montserrat Semibold';
 }
+
+@mixin regular {
+  font-family: 'Montserrat Regular';
+}
+
+@mixin bold {
+  font-family: 'Montserrat Bold';
+}
