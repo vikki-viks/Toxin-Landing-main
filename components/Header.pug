@@ -1,18 +1,20 @@
-header 
-  div.header
-    div.logo 
-      img(src="./image/Group 1.svg")
-    div.position
-      div О нас 
-      div.rotate
+header.header
+  img(src="./image/Group 1.svg").header__logo
+  nav.header__nav
+    ul.header__list.list
+      li.list__elem О нас
+      li.list__elem
         div Услуги
-        div.i
-      div Вакансии
-      div Новости
-      div.rotate
+        div.arrow
+      li.list__elem Вакансии
+      li.list__elem Новости
+      li.list__elem
         div Соглашения
-        div.i
-      button.button 
-        div Войти
-      button.button#registration Зарегестрироваться
-      
+        div.arrow
+      li.list__elem
+        button.button
+          div Войти
+      li.list__elem
+        button.button.button--fill Зарегестрироваться
+
+

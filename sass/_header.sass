@@ -2,46 +2,27 @@
   display: flex
   justify-content: space-between
   align-items: center
-  padding-top: 26px
   background-color: #fff
-  padding-bottom: 26px
   +regular
   color: rgba(31, 32, 65, 0.5)
   font-size: 14px
-  height: 70px
+  padding: 20px 140px
 
-.logo
-  margin-left: 140px
+  &__logo
+    margin-right: 140px
 
-.button
-  border-radius: 22px
-  background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%)
-  border: 2px solid
-  color: white
-  height: 34px
-  width: 87px
-  +bold
+  &__nav
+    width: 100%
+    display: flex
+    justify-content: space-around
+    align-items: center
 
-  div
-    background-color: #fff
-    color: rgba(188, 156, 255, 1)
-    margin: 3px
-    padding: 5px 10px
-    border-radius: 22px
-    text-transform: uppercase
-    +bold
-    font-size: 12px
-
-#registration
-  width: 196px
-  +bold
-  font-size: 12px
-.rotate
+.list
+  width: 100%
+  list-style-type: none
   display: flex
-
-.position
-  width: 800px
-  display: flex
-  justify-content: space-around
   align-items: center
-  margin-right: 160px
+  justify-content: space-around
+
+  &__elem
+    display: flex
