@@ -1,19 +1,18 @@
 .footer
   display: flex
-  // flex-direction: column
-  // align-items: center
-  justify-content: space-around
-  position: absolute
-  width: 1440px
-  height: 372px
-  left: 0px
-  top: 900px
+  flex-direction: column
+  width: 100%
+  // left: 0px
+  // top: 900px
   background: #FFFFFF
   box-shadow: 0px 1px 0px rgba(31, 32, 65, 0.1)
-.style
-  +thin
+  padding-top: 104px
   font-size: 14px
-  margin-bottom: 21px
+  height: 100%
+  +thin
+  &__elem
+    margin-bottom: 21px
+    flex: 1 1 auto
 
 #break
   height: 72px
@@ -44,9 +43,6 @@
 
 #inst
   margin-right: 140px
-
-.margin
-  margin-top: 104px
 
   #border
     width: 260px
