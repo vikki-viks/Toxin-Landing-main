@@ -1,10 +1,11 @@
-div.rectangle
-  h2.name Найдем номера под ваши пожелания
+.rectangle
+  h2.rectangle__name Найдем номера под ваши пожелания
   //- div#date_range
-  div.dates-wrapper
-    div Прибытие
+  .rectangle__dates-wrapper
+    .rectangle__check 
+      div Прибытие
       input(placeholder="ДД.ММ.ГГГГ" name="startDate").setting#date_range
-    div Выезд
+    .rectangle__check-out Выезд
       input(placeholder="ДД.ММ.ГГГГ" name="endDate").setting#date_range
   div.guests
     div Гости
