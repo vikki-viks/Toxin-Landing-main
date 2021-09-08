@@ -3,12 +3,13 @@
   //- div#date_range
   .rectangle__dates-wrapper
     .rectangle__check 
-      div Прибытие
+      .check Прибытие
       input(placeholder="ДД.ММ.ГГГГ" name="startDate").setting#date_range
-    .rectangle__check-out Выезд
+    .rectangle__check-out 
+      .check-out Выезд
       input(placeholder="ДД.ММ.ГГГГ" name="endDate").setting#date_range
-  div.guests
-    div Гости
+  .rectangle__guests
+    .guests Гости
     input(placeholder="Сколько гостей" name='myname').setting#width
     button.button#rec Подобрать номер
   
