@@ -217,59 +217,6 @@ $(function () {
     $('[name=endDate]').val(extensionRange.endDateText);
 });
 
-$(function () {
-  var data = {
-    div: {
-      class: 'select',
-    },
-    // span: {
-    //   class: 'placeholder',
-    // },
-    li: [
-      {
-        value: 'es',
-        text: 'Испанский',
-      },
-      {
-        value: 'en',
-        text: 'Английский',
-      },
-      {
-        value: 'fr',
-        text: 'Французский',
-      },
-      {
-        value: 'de',
-        text: 'Немецкий',
-      },
-    ],
-  };
-
-  $.fn.plugin = function (data) {
-    return this.each(function (index, self) {
-      // self.type = 'hidden';
-      var span = $('<span/>', data.span);
-      var ul = $('<ul/>').hide();
-      var div = $('<div/>', data.div).on('click', function () {
-        ul.fadeToggle('slow');
-      });
-      data.li.forEach(function (el) {
-        var li = $('<li/>', {
-          text: el.text,
-          click: function () {
-            self.value = el.value;
-            span.text(el.text);
-            $('li', ul).not(li.addClass('active')).removeClass('active');
-          },
-        }).appendTo(ul);
-      });
-      span.appendTo(div);
-      ul.appendTo(div);
-      $(self).replaceWith(div).appendTo(div);
-      $(document).click(function (event) {
-        if (!$(event.target).closest(div).length) ul.fadeOut('fast');
-      });
-    });
-  };
-  $('[name="myname"]').plugin(data);
+$(document).ready(() => {
+  $('.iqdropdown').iqDropdown();
 });

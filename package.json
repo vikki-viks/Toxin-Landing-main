@@ -4,6 +4,7 @@
   "description": "",
   "main": "webpack.config.js",
   "dependencies": {
+    "item-quantity-dropdown": "^2.1.0",
     "webpack": "^5.48.0",
     "webpack-cli": "^4.7.2"
   },
