@@ -10,31 +10,13 @@
       input(placeholder="ДД.ММ.ГГГГ" name="endDate").setting#date_range
   .rectangle__guests
     .guests Гости
-    input(placeholder="Сколько гостей" name='myname').setting#width
+    .iqdropdown.setting#width
+      p.iqdropdown-selection
+      .iqdropdown-menu
+        .iqdropdown-menu-option(data-id="item1")
+          div
+            p.iqdropdown-item Взрослые
     button.button#rec Подобрать номер
-  <div class="iqdropdown">
-  <p class="iqdropdown-selection"></p>
-  <div class="iqdropdown-menu">
-    <div class="iqdropdown-menu-option" data-id="item1">
-      <div>
-        <p class="iqdropdown-item">Item 1</p>
-        <p class="iqdropdown-description">A short description</p>
-      </div>
-    </div>
-    <div class="iqdropdown-menu-option" data-id="item2">
-      <div>
-        <p class="iqdropdown-item">Item 2</p>
-        <p class="iqdropdown-description">A short description</p>
-      </div>
-    </div>
-    <div class="iqdropdown-menu-option" data-id="item3">
-      <div>
-        <p class="iqdropdown-item">Item 3</p>
-        <p class="iqdropdown-description">A short description</p>
-      </div>
-    </div>
-  </div>
-</div>
 
   script 
     include ../js/script.js

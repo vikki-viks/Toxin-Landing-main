@@ -218,5 +218,5 @@ $(function () {
 });
 
 $(document).ready(() => {
-  $('.iqdropdown').iqDropdown();
+  $('.iqdropdown').iqDropdown({ textPlural: 'гостей', selectionText: 'гость' });
 });

@@ -73,11 +73,11 @@ body {
 }
 .iqdropdown .icon-decrement {
   display: inline-block;
-  height: 15px;
+  height: 30px;
   margin: auto;
-  min-width: 15px;
-  position: relative;
-  width: 15px;
+  min-width: 30px;
+  position: absolute;
+  width: 30px;
 }
 .iqdropdown .icon-decrement::after {
   background: #002674;
@@ -172,17 +172,16 @@ body {
   font-family: 'OpenSans', sans-serif;
   font-size: 17px;
   font-weight: 400;
-  border-bottom: 1px solid #e2e2e2;
-  border-top: 1px solid #e2e2e2;
-  padding: 11px 20px;
+  padding: 13px 16px;
 }
 .iqdropdown .iqdropdown-item-controls button {
   align-items: center;
   border: 1px solid #e2e2e2;
   display: flex;
-  height: 45px;
+  height: 30px;
   padding: 0 20px;
   transition: all 0.2s ease-in-out;
+  border-radius: 22px;
 }
 .iqdropdown .iqdropdown-item-controls button:hover {
   background-color: #eee;
