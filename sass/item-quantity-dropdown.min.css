@@ -76,7 +76,7 @@ body {
   height: 30px;
   margin: auto;
   min-width: 30px;
-  position: absolute;
+  /* position: absolute; */
   width: 30px;
 }
 .iqdropdown .icon-decrement::after {
@@ -84,7 +84,8 @@ body {
   content: '';
   display: block;
   height: 3px;
-  position: absolute;
+  margin-top: 9px;
+  /* position: absolute; */
   top: 6px;
   transition: -webkit-transform 0.25s ease-in-out;
   transition: transform 0.25s ease-in-out;
@@ -96,7 +97,8 @@ body {
   content: '';
   display: block;
   height: 3px;
-  position: absolute;
+  margin-top: 9px;
+  /* position: absolute; */
   top: 6px;
   -webkit-transform: rotate(90deg);
   transform: rotate(90deg);
@@ -189,10 +191,12 @@ body {
 .iqdropdown .iqdropdown-item-controls button.button-decrement {
   border-bottom-left-radius: 25px;
   border-top-left-radius: 25px;
+  margin-top: 9px;
 }
 .iqdropdown .iqdropdown-item-controls button.button-increment {
   border-bottom-right-radius: 25px;
   border-top-right-radius: 25px;
+  margin-top: 9px;
 }
 .iqdropdown {
   align-items: center;
